@@ -77,7 +77,10 @@ It is interesting to observe that the average profit is proportional to the numb
 There can be multiple reasons for this, namely:
 1.	More profitable and usually higher cost items are sold in region with higher customer base.
 2.	The popularity of the store can be a driving factor in the regions. Customers can be reluctant to buy a costlier product from a less popular retailer.
+
+
 I believe actions should be taken to identify the cause of this issue, as it can severely impact the profit margins. Increasing the customer base along with popularizing the store should be prioritized. 
+
 Although not included in the discussion, there are several states in the country where the total net profit is negative.
 
 ![image](https://user-images.githubusercontent.com/28995474/141244990-dc5b4e89-50a2-40da-891f-833e7754e1c6.png)
