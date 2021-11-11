@@ -1,5 +1,5 @@
 # CLTV
-Superstore data
+## Superstore data
 
 Content: Files for data analysis using **Excel, poweBI** & **Alteryx** associated with a study of the following questions:
 
