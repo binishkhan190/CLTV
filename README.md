@@ -1,10 +1,10 @@
 # CLTV
 Superstore data
-Contains Excel, poweBI, Alteryx file associated with a data to study the following questions:
+
+Content: Files for data analysis using **Excel, poweBI** & **Alteryx** associated with a study of the following questions:
 
 1.	In the city of Alexandria, what percent of Sales ($) in the “Second Class” Ship Mode were from the “Corporate” Segment?
 2.	What is the most profitable Furniture item in the State of Alabama?
-
 
 # Solution
 
