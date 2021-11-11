@@ -25,5 +25,6 @@ Steps involved:
 Thus, from the table it can be seen that 98.13% of Sales in “Second Class” ship mode were from “Corporate Segment” in the city of Alexandria.
 Also attached is a bar plot exhibiting the same information.
 
+![image](https://user-images.githubusercontent.com/28995474/141244512-e7f61820-55b6-4bb2-b4e6-92ecbb4e1e41.png)
 
 ![image](https://user-images.githubusercontent.com/28995474/141244454-acbb0e50-8ae3-4c0e-b63f-58172e4f27c5.png)
