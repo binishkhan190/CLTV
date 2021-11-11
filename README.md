@@ -42,7 +42,7 @@ The most profitable item in Alabama under the ‘Furniture’ catalog is “Tabl
 
 ## Using Alteryx
 
-### Q2
+### Q1
 
 In Alteryx, the following steps were performed:
 1.	Load the data using ‘Input Data’ tool.
@@ -62,7 +62,7 @@ The output of Cross Tab tool is shown below.
 
 ![image](https://user-images.githubusercontent.com/28995474/141244875-8b542d1e-ee0e-4425-80a9-7a1f94a27155.png)
 
-### Q3
+### Q2
 
 Similar workflow pipeline as Q1, is followed here as well. Instead of ‘Cross Tab’, the ‘Summarize’ is used for the analysis, as shown below. 
 
