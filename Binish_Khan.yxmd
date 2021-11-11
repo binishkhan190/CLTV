@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SampleSuperstore 2.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Ship Mode" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Country" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Customer Number" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="State" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Postal Code" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Region" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Category" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sales" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Quantity" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Discount" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Profit" source="File: G:\My Drive\Slate\Notes_G\Hobby\Coop Calgary\SampleSuperstore 2.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="State" selected="True" />
+            <SelectField field="Category" selected="True" />
+            <SelectField field="Sub-Category" selected="True" />
+            <SelectField field="Profit" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\akhan147\AppData\Local\Temp\Engine_8720_451c3498d02849b6ac5ee6eef319b7be_\Engine_488_19358bfd6b2341ccac3c02ccb9aa7c48_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>State</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-10-28 00:26:51</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Alabama</Operand>
+              <StartDate>2021-10-28 00:26:51</StartDate>
+              <EndDate>2021-10-28 00:26:51</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[State] = "Alabama"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Sub-Category" action="GroupBy" rename="Sub-Category" />
+            <SummarizeField field="Profit" action="Avg" rename="Avg_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Comparison for most profitable 'Furniture' item in the state of 'Alabama'</AnnotationText>
+          <DefaultAnnotationText>Comparison for most profitable 'Furniture' item in the state of 'Alabama'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="630" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Category</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-10-28 00:29:20</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-10-28 00:29:20</StartDate>
+              <EndDate>2021-10-28 00:29:20</EndDate>
+              <Operand>Furniture</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Category] = "Furniture"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="174" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Ship Mode" />
+            <Field field="Segment" />
+            <Field field="Country" />
+            <Field field="City" />
+            <Field field="Customer Number" />
+            <Field field="State" />
+            <Field field="Postal Code" />
+            <Field field="Region" />
+            <Field field="Category" />
+            <Field field="Sub-Category" />
+            <Field field="Sales" />
+            <Field field="Quantity" />
+            <Field field="Discount" />
+            <Field field="Profit" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unique" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Binish_Khan</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1335992c-02fc-4aa0-9829-547198264b53" />
+      <Telemetry>
+        <PreviousWorkflowId value="6122d8c8-ab16-4999-a635-5cc8c1bbe96f" />
+        <OriginWorkflowId value="75b86320-8f9f-42b7-8ff8-d0a66dab98a6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
