@@ -6,6 +6,8 @@ Content: Files for data analysis using **Excel, poweBI** & **Alteryx** associate
 1.	In the city of Alexandria, what percent of Sales ($) in the “Second Class” Ship Mode were from the “Corporate” Segment?
 2.	What is the most profitable Furniture item in the State of Alabama?
 
+---
+
 # Solution
 
 ## Using Excel:
@@ -39,6 +41,8 @@ The most profitable item in Alabama under the ‘Furniture’ catalog is “Tabl
 ![image](https://user-images.githubusercontent.com/28995474/141244674-299bd3ec-6eab-4626-9707-2d7271eb563c.png)
 
 ![image](https://user-images.githubusercontent.com/28995474/141244689-b9092549-be02-4cb1-928e-ee8136010670.png)
+
+---
 
 ## Using Alteryx
 
